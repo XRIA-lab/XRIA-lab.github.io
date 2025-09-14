@@ -174,7 +174,7 @@ input, select, textarea {
 		margin: 0 0 2rem 0;
 	}
 
-	h1, h2, h3, h4, h5, h6, h7 {
+	h1, h2, h3, h4, h5, h6, h7, h8 {
 		color: #ffffff;
 		font-weight: 600;
 		line-height: 1.5;
@@ -228,6 +228,11 @@ input, select, textarea {
 	}
     h7 {
             font-size: 2.5rem;
+            line-height: 1.5;
+            letter-spacing: 0.2rem;
+        }
+    h8 {
+            font-size: 1.5rem;
             line-height: 1.5;
             letter-spacing: 0.2rem;
         }
@@ -1134,7 +1139,7 @@ input, select, textarea {
 			left: 0;
 			width: 100%;
 			height: 100%;
-            background-color: rgba(0, 0, 0, 0.6); /* 50% black overlay */
+            background-color: rgba(0, 0, 0, 0.5); /* 50% black overlay */
 		}
 
 		#bg:before {
@@ -1685,4 +1690,30 @@ input, select, textarea {
   border-left: 3px solid #e44c65; /* accent color */
   padding-left: 1em;
   line-height: 1.5em;
+}
+
+.project-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 1.5em auto;
+  border-radius: 8px;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  margin: 1em 0;
+  border-radius: 8px; /* optional rounded corners */
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
