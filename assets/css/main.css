@@ -189,13 +189,8 @@ input, select, textarea {
 		}
 
 		h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
-		<!--	border-bottom: solid 1px #ffffff;
-			width: -moz-max-content;
-			width: -webkit-max-content;
-			width: -ms-max-content;
-			width: max-content;-->
-			width: 100% !important;   /* span the whole container */
-			padding-bottom: 0.5rem;
+			width: 400px% !important;   /* span the whole container */
+			margin: 0 auto 2rem auto; /* center it */
 			margin: 0 0 2rem 0;
 		}
 
