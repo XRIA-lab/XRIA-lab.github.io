@@ -1308,6 +1308,13 @@ input, select, textarea {
 			line-height: 5.5rem;
 			border: solid 1px #ffffff;
 			border-radius: 100%;
+			overflow: hidden; /* ensures circular clip */
+		}
+		#header .logo img.logo-img {
+		  width: 100%;
+		  height: auto;
+		  border-radius: 50%;
+		  display: block;
 		}
 
 			#header .logo .icon:before {
