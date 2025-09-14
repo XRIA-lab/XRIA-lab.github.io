@@ -194,8 +194,8 @@ input, select, textarea {
 		  width: -webkit-max-content;
 		  width: -ms-max-content;
 		  width: max-content;
-		  padding-bottom: 0.25rem;
-		  margin: 0 0 0.5rem 0;
+		  padding-bottom: 0.5rem;
+		  margin: 0 0 2rem 0;
 		}
 
 	h1 {
@@ -1723,4 +1723,13 @@ input, select, textarea {
   left: 0;
   width: 100%;
   height: 100%;
+}
+.hero-title {
+  margin-top: 0.5rem;        /* space from top line */
+  margin-bottom: 0.5rem;     /* same space before tagline */
+  padding-top: 0.25rem;      /* balance inside spacing */
+  padding-bottom: 0.25rem;   /* balance before bottom line */
+  border-top: solid 1px #fff;
+  border-bottom: solid 1px #fff;
+  display: inline-block;     /* lines match text width */
 }
