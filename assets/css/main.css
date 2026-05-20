@@ -1733,3 +1733,53 @@ input, select, textarea {
   border-bottom: solid 1px #fff;
   display: inline-block;     /* lines match text width */
 }
+
+/* People page two-column layout */
+
+.people-grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 2.5rem;
+}
+
+.person-card {
+	border-bottom: solid 1px rgba(255, 255, 255, 0.25);
+	padding-bottom: 2rem;
+}
+
+.person-card h2.major,
+.person-card h2.main {
+	font-size: 1.15rem;
+	letter-spacing: 0.25rem;
+	margin-bottom: 1rem;
+}
+
+.person-card h3 {
+	font-size: 0.85rem;
+	letter-spacing: 0.05rem;
+	margin-bottom: 1rem;
+}
+
+.person-card .icons {
+	margin-bottom: 1em;
+}
+
+.person-card img {
+	width: 180px;
+	height: auto;
+	border-radius: 8px;
+	margin-bottom: 1.25rem;
+}
+
+.person-card p {
+	font-size: 0.9rem;
+	line-height: 1.55;
+	margin-bottom: 0;
+}
+
+/* Keep one column on tablets and phones */
+@media screen and (max-width: 736px) {
+	.people-grid {
+		grid-template-columns: 1fr;
+	}
+}
