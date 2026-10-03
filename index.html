@@ -364,6 +364,8 @@
 
   <script src="/_scripts/fetch-tags.js"></script>
 
+  <script src="/_scripts/ia-rotate.js"></script>
+
   <script src="/_scripts/search.js"></script>
 
   <script src="/_scripts/site-search.js"></script>
@@ -479,26 +481,7 @@
   for Human-Centered Industrial Systems
 </h1>
 
-<script>
-  (function () {
-    var el = document.querySelector(".ia-rotate");
-    if \(!el \|| window.matchMedia\(\"\(prefers-reduced-motion: reduce)\").matches) return;
-    var words = el.dataset.words.split\(\"|\"), w = 0, i = words\[0].length, deleting = true;
-    function tick() {
-      var word = words[w];
-      if (deleting) {
-        i--;
-        if (i === 0) { deleting = false; w = (w + 1) % words.length; }
-      } else {
-        i++;
-        if (i === words[w].length) { deleting = true; el.textContent = words[w]; return setTimeout(tick, 2500); }
-      }
-      el.textContent = words\[w].slice\(0, i) \|| \"\u200b\";
-      setTimeout(tick, deleting ? 40 : 90);
-    }
-    setTimeout(tick, 2500);
-  })();
-</script>
+<script src="/_scripts/ia-rotate.js" defer></script>
 
 <p>XRIA Lab at Uppsala University develops AI-driven extended reality (XR), simulation, and decision-support systems that help people in industry learn faster, work safer, and make better decisions.
 We work hand in hand with manufacturers, from Hitachi Energy and Scania to SMEs, and validate our solutions in learning factories and industrial pilots.</p>
