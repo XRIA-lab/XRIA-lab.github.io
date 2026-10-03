@@ -14,7 +14,7 @@ We are always looking for motivated students, researchers, and industrial collab
 
 ## Upcoming positions
 
-We will announce one PhD position and two postdoctoral positions soon. Calls will be published here and on the [Uppsala University vacancies page](https://www.uu.se/en/about-uu/join-us/jobs-and-vacancies); interested candidates are welcome to get in touch in advance.
+We will announce one PhD position and one postdoctoral position soon. Calls will be published here and on the [Uppsala University vacancies page](https://www.uu.se/en/about-uu/join-us/jobs-and-vacancies); interested candidates are welcome to get in touch in advance.
 
 ### Postdoc in industrial energy flexibility (FLEXIVA)
 
@@ -25,17 +25,6 @@ Within the [FLEXIVA]({{ "projects/flexiva" | relative_url }}) project in the RES
   type="email"
   text="Express interest"
   link="kaveh.amouzgar@angstrom.uu.se?subject=FLEXIVA%20postdoc%20-%20XRIA%20Lab"
-%}
-
-### Postdoc in multimodal AI & XR
-
-Multimodal AI and extended reality for human-centered manufacturing, connected to our projects on XR-based skill transfer and operator augmentation.
-
-{%
-  include button.html
-  type="email"
-  text="Express interest"
-  link="kaveh.amouzgar@angstrom.uu.se?subject=Postdoc%20multimodal%20AI%20and%20XR%20-%20XRIA%20Lab"
 %}
 
 ### PhD position
