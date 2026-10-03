@@ -1,102 +1,340 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
-# (pre-filled during migration; the update-citations workflow regenerates it from sources.yaml)
 
 - id: doi:10.1016/j.jmsy.2026.02.015
-  title: 'LLM-driven discrete-event simulation: A generative AI framework for automated model generation, adaptation, and evaluation in manufacturing'
+  title: 'LLM-driven discrete-event simulation: A generative AI framework for automated
+    model generation, adaptation, and evaluation in manufacturing'
   authors:
-  - T. Schmitt
-  - N. Gegenmantel
-  - M. U. Moris
-  - P. Mårtensson
-  - K. Amouzgar
+  - Thomas Schmitt
+  - Nils Gegenmantel
+  - "Mat\xEDas Urenda Moris"
+  - "P\xE4r M\xE5rtensson"
+  - Kaveh Amouzgar
   publisher: Journal of Manufacturing Systems
-  date: '2026-03-01'
-  link: https://doi.org/10.1016/j.jmsy.2026.02.015
+  date: '2026-04-01'
+  link: https://doi.org/hbrjn9
+  orcid: 0000-0001-7534-0382
+  plugin: sources.py
+  file: sources.yaml
   type: paper
   tags:
   - simulation
   - decision support
+- id: doi:10.3390/en19041058
+  title: 'Bridging the Industrial Energy Efficiency Gap: A Case Study of Targeting
+    Energy Waste in Industrial Manufacturing'
+  authors:
+  - Thomas Schmitt
+  - Sandra Mattsson
+  - "Erik Flores-Garc\xEDa"
+  - Lars Hanson
+  - Kaveh Amouzgar
+  - "Mat\xEDas Urenda Moris"
+  publisher: Energies
+  date: '2026-02-18'
+  link: https://doi.org/hbqmxb
+  orcid: 0000-0001-7534-0382
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.jmsy.2025.05.019
+  title: 'A novel XR-based real-time machine interaction system for Industry 4.0:
+    Usability evaluation in a learning factory'
+  authors:
+  - Kaveh Amouzgar
+  - Justus Willebrand
+  publisher: Journal of Manufacturing Systems
+  date: '2025-10-01'
+  link: https://doi.org/g9rtn7
+  orcid: 0000-0001-7534-0382
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: images/research/xr-machine-interaction.jpg
+  description: An XR-based system enabling real-time interaction with industrial machines
+    in a learning factory, with a usability evaluation showing its potential to improve
+    efficiency, learning outcomes, and user experience in Industry 4.0 settings.
+  tags:
+  - extended reality
 - id: doi:10.1016/j.jmsy.2025.07.008
-  title: 'Optimizing energy efficiency and productivity in industrial manufacturing: A simulation-based optimization approach with knowledge discovery'
+  title: 'Optimizing energy efficiency and productivity in industrial manufacturing:
+    A simulation-based optimization approach with knowledge discovery'
   authors:
-  - T. Schmitt
-  - S. Olives Juan
-  - K. Amouzgar
-  - L. Hanson
-  - M. U. Moris
+  - Thomas Schmitt
+  - Sergi Olives Juan
+  - Kaveh Amouzgar
+  - Lars Hanson
+  - "Mat\xEDas Urenda Moris"
   publisher: Journal of Manufacturing Systems
-  date: '2025-08-01'
-  link: https://doi.org/10.1016/j.jmsy.2025.07.008
+  date: '2025-10-01'
+  link: https://doi.org/g9wtw9
+  orcid: 0000-0001-7534-0382
+  plugin: sources.py
+  file: sources.yaml
   type: paper
   tags:
   - simulation
   - decision support
-- id: doi:10.1007/s10055-025-01183-4
-  title: 'HoloMech: An Extended Reality Tool for Supporting Student Motivation and Perceived Spatial Reasoning in Structural Mechanics'
+- id: doi:10.1109/ACCESS.2025.3566442
+  title: 'Augmented Reality for Machine Monitoring in Industrial Manufacturing: A
+    Media Comparison in Terms of Efficiency, Effectiveness, and Satisfaction'
   authors:
-  - K. Amouzgar
-  - M. Mousavi
+  - Thomas Schmitt
+  - Philip Viklund
+  - "Martina Sj\xF6lander"
+  - Lars Hanson
+  - "Mat\xEDas Urenda Moris"
+  - Kaveh Amouzgar
+  publisher: IEEE Access
+  date: '2025-01-01'
+  link: https://doi.org/g9j9w9
+  orcid: 0000-0001-7534-0382
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/s10055-025-01183-4
+  title: 'Holomech: an extended reality tool for supporting student motivation and
+    perceived spatial reasoning in structural mechanics'
+  authors:
+  - Kaveh Amouzgar
+  - Mahmoud Mousavi
   publisher: Virtual Reality
-  date: '2025-07-01'
-  link: https://doi.org/10.1007/s10055-025-01183-4
+  date: '2025-07-30'
+  link: https://doi.org/g9v4g8
+  orcid: 0000-0001-7534-0382
+  plugin: sources.py
+  file: sources.yaml
   type: paper
   tags:
   - extended reality
   - education
-- id: doi:10.1016/j.jmsy.2025.05.019
-  title: 'A novel XR-based real-time machine interaction system for Industry 4.0: Usability evaluation in a learning factory'
+- id: doi:10.1016/j.procir.2025.03.018
+  title: Smart process planning of crankshaft machining through multiple objectives
+    optimization
   authors:
-  - K. Amouzgar
-  - J. Willebrand
-  publisher: Journal of Manufacturing Systems
-  date: '2025-06-01'
-  link: https://doi.org/10.1016/j.jmsy.2025.05.019
+  - Kaveh Amouzgar
+  - Wei Wang
+  - Mahdi Eynian
+  - Amos H.C. Ng.
+  publisher: Procedia CIRP
+  date: '2025-01-01'
+  link: https://doi.org/g9rrqm
+  orcid: 0000-0001-7534-0382
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.procir.2023.09.171
+  title: 'Augmented reality for machine monitoring in industrial manufacturing: framework
+    and application development'
+  authors:
+  - Thomas Schmitt
+  - Philip Viklund
+  - "Martina Sj\xF6lander"
+  - Lars Hanson
+  - Kaveh Amouzgar
+  - "Mat\xEDas Urenda Moris"
+  publisher: Procedia CIRP
+  date: '2023-01-01'
+  link: https://doi.org/gtjh7d
+  orcid: 0000-0001-7534-0382
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.2139/ssrn.4076762
+  title: Exploring Prediction Accuracy Using Different Machine Learning Models within
+    Airport Turnaround Operations
+  authors:
+  - Simon Okwir
+  - Kaveh Amouzgar
+  - Amos Ng
+  publisher: Elsevier BV
+  date: '2022-01-01'
+  link: https://doi.org/hcmh6z
+  orcid: 0000-0001-7534-0382
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3233/ATDE220127
+  title: Frequent and Automatic Monitoring of Resource Data via the Internet of Things
+  authors:
+  - Thomas Schmitt
+  - Pavani Sakaray
+  - Lars Hanson
+  - "Mat\xEDas Urenda Moris"
+  - Kaveh Amouzgar
+  publisher: Advances in Transdisciplinary Engineering
+  date: '2022-04-20'
+  link: https://doi.org/g4zpt9
+  orcid: 0000-0001-7534-0382
+  plugin: sources.py
+  file: sources.yaml
   type: paper
   tags:
-  - extended reality
-  image: images/research/xr-machine-interaction.jpg
-  description: An XR-based system enabling real-time interaction with industrial machines in a learning factory, with a usability evaluation showing its potential to improve efficiency, learning outcomes,
-    and user experience in Industry 4.0 settings.
+  - decision support
+- id: doi:10.1080/00207543.2021.1897174
+  title: 'Multi-objective optimisation of tool indexing problem: a mathematical model
+    and a modified genetic algorithm'
+  authors:
+  - Kaveh Amouzgar
+  - Amir Nourmohammadi
+  - Amos H.C. Ng
+  publisher: International Journal of Production Research
+  date: '2021-03-13'
+  link: https://doi.org/gjgshg
+  orcid: 0000-0001-7534-0382
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1080/0305215X.2019.1639050
+  title: Metamodel-based multi-objective optimization of a turning process by using
+    finite element simulation
+  authors:
+  - Kaveh Amouzgar
+  - Sunith Bandaru
+  - Tobias Andersson
+  - Amos H. C. Ng
+  publisher: Engineering Optimization
+  date: '2019-07-22'
+  link: https://doi.org/gh8gvs
+  orcid: 0000-0001-7534-0382
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.procir.2020.03.044
+  title: Optimizing index positions on CNC tool magazines considering cutting tool
+    life and duplicates
+  authors:
+  - Kaveh Amouzgar
+  - Amos H.C. Ng
+  - Goran Ljustina
+  publisher: Procedia CIRP
+  date: '2020-01-01'
+  link: https://doi.org/gh8g56
+  orcid: 0000-0001-7534-0382
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/978-3-030-16134-7_13
+  title: 'Management of Virtual Models with Provenance Information in the Context
+    of Product Lifecycle Management: Industrial Case Studies'
+  authors:
+  - Iman Morshedzadeh
+  - Amos H. C. Ng
+  - Kaveh Amouzgar
+  publisher: Decision Engineering
+  date: '2019-01-01'
+  link: https://doi.org/gh8gqz
+  orcid: 0000-0001-7534-0382
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/s00170-018-2360-8
+  title: A framework for simulation-based multi-objective optimization and knowledge
+    discovery of machining process
+  authors:
+  - Kaveh Amouzgar
+  - Sunith Bandaru
+  - Tobias Andersson
+  - Amos H. C. Ng
+  publisher: The International Journal of Advanced Manufacturing Technology
+  date: '2018-07-10'
+  link: https://doi.org/gd8n82
+  orcid: 0000-0001-7534-0382
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.engappai.2018.02.006
+  title: Radial basis functions with a priori bias as surrogate models:A comparative
+    study
+  authors:
+  - Kaveh Amouzgar
+  - Sunith Bandaru
+  - Amos H.C. Ng
+  publisher: Engineering Applications of Artificial Intelligence
+  date: '2018-05-01'
+  link: https://doi.org/gc8v53
+  orcid: 0000-0001-7534-0382
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.advengsoft.2017.03.003
+  title: A methodology for microstructure-based structural optimization of cast and
+    injection moulded parts using knowledge-based design automation
+  authors:
+  - Jakob Olofsson
+  - Kent Salomonsson
+  - Joel Johansson
+  - Kaveh Amouzgar
+  publisher: Advances in Engineering Software
+  date: '2017-07-01'
+  link: https://doi.org/f94cv6
+  orcid: 0000-0001-7534-0382
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/s00158-016-1569-0
+  title: Radial basis functions as surrogate models with a priori bias in comparison
+    with a posteriori bias
+  authors:
+  - Kaveh Amouzgar
+  - "Niclas Str\xF6mberg"
+  publisher: Structural and Multidisciplinary Optimization
+  date: '2016-09-29'
+  link: https://doi.org/f3tfqv
+  orcid: 0000-0001-7534-0382
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1115/detc2014-34948
+  title: An Approach Towards Generating Surrogate Models by Using RBFN With a Priori
+    Bias
+  authors:
+  - Kaveh Amouzgar
+  - Niclas Stromberg
+  publisher: 'Volume 2B: 40th Design Automation Conference'
+  date: '2014-08-17'
+  link: https://doi.org/gh8h5f
+  orcid: 0000-0001-7534-0382
+  plugin: orcid.py
+  file: orcid.yaml
+- title: Multi-objective optimization of material model parameters of an adhesive
+    layer by using SPEA2
+  publisher: 11Th world congress of structural and multidisciplinary optimization
+    (WCSMO-11)
+  date: '2019-07-02'
+  orcid: 0000-0001-7534-0382
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1115/DETC2013-12809
+  title: Multi-Objective Optimization of a Disc Brake System by Using SPEA2 and RBFN
+  authors:
+  - Kaveh Amouzgar
+  - Asim Rashid
+  - Niclas Stromberg
+  publisher: 'Volume 3B: 39th Design Automation Conference'
+  date: '2013-08-04'
+  link: https://doi.org/f223d2
+  orcid: 0000-0001-7534-0382
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1109/access.2025.3566442
-  title: 'Augmented Reality for Machine Monitoring in Industrial Manufacturing: A Media Comparison in Terms of Efficiency, Effectiveness, and Satisfaction'
+  title: 'Augmented Reality for Machine Monitoring in Industrial Manufacturing: A
+    Media Comparison in Terms of Efficiency, Effectiveness, and Satisfaction'
   authors:
-  - T. Schmitt
-  - P. Viklund
-  - M. Sjölander
-  - L. Hanson
-  - M. U. Moris
-  - K. Amouzgar
+  - Thomas Schmitt
+  - Philip Viklund
+  - "Martina Sj\xF6lander"
+  - Lars Hanson
+  - "Mat\xEDas Urenda Moris"
+  - Kaveh Amouzgar
   publisher: IEEE Access
-  date: '2025-05-01'
-  link: https://doi.org/10.1109/access.2025.3566442
+  date: '2025-01-01'
+  link: https://doi.org/g9j9w9
   type: paper
   tags:
   - extended reality
-- title: 'Augmented reality for machine monitoring in industrial manufacturing: framework and application development'
+  plugin: sources.py
+  file: sources.yaml
+- title: 'Augmented reality for machine monitoring in industrial manufacturing: framework
+    and application development'
   authors:
   - T. Schmitt
   - P. Viklund
-  - M. Sjölander
+  - "M. Sj\xF6lander"
   - L. Hanson
   - K. Amouzgar
   - M. U. Moris
-  publisher: Procedia CIRP 120, 1327–1332
+  publisher: "Procedia CIRP 120, 1327\u20131332"
   date: '2023-01-01'
   link: https://www.sciencedirect.com/science/article/pii/S2212827123009034
   type: paper
   tags:
   - extended reality
-- id: doi:10.3233/ATDE220127
-  title: Frequent and automatic monitoring of resource data via the Internet of Things
-  authors:
-  - T. Schmitt
-  - P. Sakaray
-  - L. Hanson
-  - M. Urenda Moris
-  - K. Amouzgar
-  publisher: SPS2022, IOS Press
-  date: '2022-01-01'
-  link: https://doi.org/10.3233/ATDE220127
-  type: paper
-  tags:
-  - decision support
+  plugin: sources.py
+  file: sources.yaml
