@@ -1,0 +1,89 @@
+# site properties and page defaults
+title: XRIA Lab
+subtitle: Uppsala University
+description: >-
+  XRIA Lab: eXtended Reality and Industrial & Intelligent Analytics for Human-Centered Industrial Systems.
+  We develop AI-driven extended reality, simulation, and decision-support systems
+  that make manufacturing safer, smarter, and more sustainable.
+header: images/background.jpg
+footer: images/background.jpg
+proofer: false
+
+# the "IA" in XRIA: expansions rotated in the home-page headline (add or reorder freely)
+ia-expansions:
+  - Industrial Analytics
+  - Intelligent Analytics
+
+# site social media and other links (shown in the footer)
+links:
+  email: kaveh.amouzgar@angstrom.uu.se
+  youtube: "@XRIALab"
+  github: XRIA-lab
+  # TODO: add a lab LinkedIn page if you create one
+  # linkedin: your-lab-page
+
+### jekyll settings
+
+# front matter defaults
+defaults:
+  # all markdown files
+  - scope:
+      path: ""
+    values:
+      layout: default
+  # markdown files in /_members
+  - scope:
+      type: "members"
+    values:
+      layout: member
+  # markdown files in /_posts
+  - scope:
+      type: "posts"
+    values:
+      layout: post
+
+collections:
+  # generate page for each member
+  members:
+    output: true
+  # generate page for each post
+  posts:
+    output: true
+
+# news posts live at /news/YYYY/MM/DD/title
+permalink: /news/:year/:month/:day/:title/
+
+# jekyll plugins
+plugins:
+  - jekyll-spaceship
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll-feed
+  - jekyll-last-modified-at
+
+# code block syntax highlighting
+highlighter: rouge
+
+# jekyll theme
+theme: null
+
+# sass settings
+sass:
+  sass_dir: _styles
+
+# force jekyll to include certain files/folders
+include:
+  - _styles
+  - _scripts
+
+# force jekyll to exclude certain files/folders
+exclude:
+  - README.md
+  - LICENSE.md
+  - CITATION.cff
+
+# configure jekyll spaceship
+jekyll-spaceship:
+  mathjax-processor:
+    src:
+      - https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js

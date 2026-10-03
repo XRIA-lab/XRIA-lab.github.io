@@ -1,0 +1,56 @@
+# Publications. Add a paper by adding its DOI as "id: doi:..."; the
+# update-citations GitHub Action fetches title, authors, journal and date
+# automatically and writes them to _data/citations.yaml (don't edit that file).
+# Optional extra fields: image, description, tags, buttons.
+# Theme tags: extended reality, decision support, simulation, education
+
+- id: doi:10.1016/j.jmsy.2026.02.015
+  type: paper
+  tags:
+    - simulation
+    - decision support
+
+- id: doi:10.1016/j.jmsy.2025.07.008
+  type: paper
+  tags:
+    - simulation
+    - decision support
+
+- id: doi:10.1007/s10055-025-01183-4
+  type: paper
+  tags:
+    - extended reality
+    - education
+
+- id: doi:10.1016/j.jmsy.2025.05.019
+  type: paper
+  image: images/research/xr-machine-interaction.jpg
+  description: An XR-based system enabling real-time interaction with industrial machines in a learning factory, with a usability evaluation showing its potential to improve efficiency, learning outcomes, and user experience in Industry 4.0 settings.
+  tags:
+    - extended reality
+
+- id: doi:10.1109/access.2025.3566442
+  type: paper
+  tags:
+    - extended reality
+
+- id: doi:10.3233/ATDE220127
+  type: paper
+  tags:
+    - decision support
+
+# no DOI listed on the old site; entered manually (add "id: doi:..." if you have it)
+- title: "Augmented reality for machine monitoring in industrial manufacturing: framework and application development"
+  authors:
+    - T. Schmitt
+    - P. Viklund
+    - M. Sjölander
+    - L. Hanson
+    - K. Amouzgar
+    - M. U. Moris
+  publisher: Procedia CIRP 120, 1327–1332
+  date: 2023-01-01
+  link: https://www.sciencedirect.com/science/article/pii/S2212827123009034
+  type: paper
+  tags:
+    - extended reality

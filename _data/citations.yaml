@@ -1,0 +1,102 @@
+# DO NOT EDIT, GENERATED AUTOMATICALLY
+# (pre-filled during migration; the update-citations workflow regenerates it from sources.yaml)
+
+- id: doi:10.1016/j.jmsy.2026.02.015
+  title: 'LLM-driven discrete-event simulation: A generative AI framework for automated model generation, adaptation, and evaluation in manufacturing'
+  authors:
+  - T. Schmitt
+  - N. Gegenmantel
+  - M. U. Moris
+  - P. Mårtensson
+  - K. Amouzgar
+  publisher: Journal of Manufacturing Systems
+  date: '2026-03-01'
+  link: https://doi.org/10.1016/j.jmsy.2026.02.015
+  type: paper
+  tags:
+  - simulation
+  - decision support
+- id: doi:10.1016/j.jmsy.2025.07.008
+  title: 'Optimizing energy efficiency and productivity in industrial manufacturing: A simulation-based optimization approach with knowledge discovery'
+  authors:
+  - T. Schmitt
+  - S. Olives Juan
+  - K. Amouzgar
+  - L. Hanson
+  - M. U. Moris
+  publisher: Journal of Manufacturing Systems
+  date: '2025-08-01'
+  link: https://doi.org/10.1016/j.jmsy.2025.07.008
+  type: paper
+  tags:
+  - simulation
+  - decision support
+- id: doi:10.1007/s10055-025-01183-4
+  title: 'HoloMech: An Extended Reality Tool for Supporting Student Motivation and Perceived Spatial Reasoning in Structural Mechanics'
+  authors:
+  - K. Amouzgar
+  - M. Mousavi
+  publisher: Virtual Reality
+  date: '2025-07-01'
+  link: https://doi.org/10.1007/s10055-025-01183-4
+  type: paper
+  tags:
+  - extended reality
+  - education
+- id: doi:10.1016/j.jmsy.2025.05.019
+  title: 'A novel XR-based real-time machine interaction system for Industry 4.0: Usability evaluation in a learning factory'
+  authors:
+  - K. Amouzgar
+  - J. Willebrand
+  publisher: Journal of Manufacturing Systems
+  date: '2025-06-01'
+  link: https://doi.org/10.1016/j.jmsy.2025.05.019
+  type: paper
+  tags:
+  - extended reality
+  image: images/research/xr-machine-interaction.jpg
+  description: An XR-based system enabling real-time interaction with industrial machines in a learning factory, with a usability evaluation showing its potential to improve efficiency, learning outcomes,
+    and user experience in Industry 4.0 settings.
+- id: doi:10.1109/access.2025.3566442
+  title: 'Augmented Reality for Machine Monitoring in Industrial Manufacturing: A Media Comparison in Terms of Efficiency, Effectiveness, and Satisfaction'
+  authors:
+  - T. Schmitt
+  - P. Viklund
+  - M. Sjölander
+  - L. Hanson
+  - M. U. Moris
+  - K. Amouzgar
+  publisher: IEEE Access
+  date: '2025-05-01'
+  link: https://doi.org/10.1109/access.2025.3566442
+  type: paper
+  tags:
+  - extended reality
+- title: 'Augmented reality for machine monitoring in industrial manufacturing: framework and application development'
+  authors:
+  - T. Schmitt
+  - P. Viklund
+  - M. Sjölander
+  - L. Hanson
+  - K. Amouzgar
+  - M. U. Moris
+  publisher: Procedia CIRP 120, 1327–1332
+  date: '2023-01-01'
+  link: https://www.sciencedirect.com/science/article/pii/S2212827123009034
+  type: paper
+  tags:
+  - extended reality
+- id: doi:10.3233/ATDE220127
+  title: Frequent and automatic monitoring of resource data via the Internet of Things
+  authors:
+  - T. Schmitt
+  - P. Sakaray
+  - L. Hanson
+  - M. Urenda Moris
+  - K. Amouzgar
+  publisher: SPS2022, IOS Press
+  date: '2022-01-01'
+  link: https://doi.org/10.3233/ATDE220127
+  type: paper
+  tags:
+  - decision support

@@ -1,0 +1,10 @@
+{% comment %}
+  EU funding acknowledgement (MANUFACTOR brand guidelines: EU-funded logo + disclaimer).
+  Optional: include eu-funding.html text="..." to replace the disclaimer.
+{% endcomment %}
+<div class="eu-funding">
+  <img src="{{ "images/eu-funded-white.png" | relative_url }}" alt="Funded by the European Union" width="240" height="51">
+  <p>
+    {{ include.text | default: "Funded by the European Union. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union. Neither the European Union nor the granting authority can be held responsible for them." }}
+  </p>
+</div>
