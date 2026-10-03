@@ -73,6 +73,19 @@
   tags:
   - simulation
   - decision support
+- id: doi:10.1016/j.jairtraman.2024.102684
+  title: Exploring prediction accuracy for optimal taxi times in airport operations
+    using various machine learning models
+  authors:
+  - Simon Okwir
+  - Kaveh Amouzgar
+  - Amos HC. Ng
+  publisher: Journal of Air Transport Management
+  date: '2025-01-01'
+  link: https://doi.org/g8ptdd
+  orcid: 0000-0001-7534-0382
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1109/ACCESS.2025.3566442
   title: 'Augmented Reality for Machine Monitoring in Industrial Manufacturing: A
     Media Comparison in Terms of Efficiency, Effectiveness, and Satisfaction'
