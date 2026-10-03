@@ -4,6 +4,7 @@
 
 - title: FLEXIVA
   subtitle: RESILIENT Competence Centre · 2027–2031
+  funding: "Project budget: SEK 2 million"
   group: upcoming
   image: images/projects/flexiva.svg
   link: projects/flexiva
@@ -15,6 +16,7 @@
 
 - title: MANUFACTOR
   subtitle: Horizon Europe · 2026–2029
+  funding: "Total budget: €5.98 million"
   group: ongoing
   image: images/projects/manufactor-card.jpg
   link: projects/manufactor
@@ -25,6 +27,7 @@
 
 - title: ARTISAN
   subtitle: Vinnova · 2025–2028
+  funding: "Vinnova funding: SEK 5,999,868"
   group: ongoing
   image: images/projects/artisan.jpg
   link: projects/artisan
@@ -34,6 +37,7 @@
 
 - title: AI-COMPETE
   subtitle: Vinnova · 2025–2028
+  funding: "Vinnova funding: SEK 6,493,400"
   group: ongoing
   image: images/projects/ai-compete.jpg
   link: projects/ai-compete
@@ -44,6 +48,7 @@
 
 - title: PUMA2025
   subtitle: Uppsala University · 2025–2026
+  funding: "Project funding: SEK 238,000"
   group: completed
   image: images/projects/puma2025.jpg
   link: projects/puma2025
@@ -54,6 +59,7 @@
 
 - title: VFS2024
   subtitle: Uppsala Innovation Centre · 2024–2025
+  funding: "Programme funding: up to SEK 300,000"
   group: completed
   image: images/projects/vfs2024.jpg
   link: projects/vfs2024
@@ -63,6 +69,7 @@
 
 - title: PUMA2023 – HoloMech
   subtitle: Uppsala University · 2023–2024
+  funding: Budget not publicly listed
   group: completed
   image: images/projects/puma2023.jpg
   link: projects/puma2023

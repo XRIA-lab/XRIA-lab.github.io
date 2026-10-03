@@ -11,6 +11,7 @@ description: Agentic Reality Training in Skill Acquisition for Next-Generation M
 
 **Duration:** 1 September 2025 – 31 August 2028  
 **Funder:** Sweden's Innovation Agency (Vinnova)  
+**Vinnova funding:** [SEK 5,999,868](https://www.vinnova.se/en/p/artisan-agentic-reality-training-in-skill-acquisition-for-next-generation-manufacturing/)  
 **Partners:** AugmentedRealm, Hitachi Energy, Solme, Ekets Group, and Uppsala University (XRIA Lab)  
 **Status:** Ongoing
 

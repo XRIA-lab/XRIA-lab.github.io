@@ -13,6 +13,7 @@ description: FLEXIVA, a RESILIENT Competence Centre project with Scania and the 
 
 **Duration:** 2027–2031  
 **Programme:** [RESILIENT Competence Centre for Resilient Energy Systems](https://sites.mdu.se/resilient/en/resilient)  
+**Project budget:** SEK 2 million  
 **Partners:** Scania, the [USER – Uppsala Smart Energy Research group](https://www.uu.se/en/research/user-uppsala-smart-energy-research-group), and Uppsala University (XRIA Lab)  
 **Status:** Upcoming
 

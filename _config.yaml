@@ -12,6 +12,7 @@ proofer: false
 # the "IA" in XRIA: expansions rotated in the home-page headline (add or reorder freely)
 ia-expansions:
   - Industrial Analytics
+  - Intelligent Agents
   - Intelligent Analytics
 
 # site social media and other links (shown in the footer)

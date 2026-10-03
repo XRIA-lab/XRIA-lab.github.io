@@ -61,6 +61,14 @@
   white-space: nowrap;
 }
 
+.card-funding {
+  display: block;
+  margin-top: 0.35rem;
+  color: var(--primary);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
 .ia-rotate::after {
   content: "|";
   margin-left: 2px;

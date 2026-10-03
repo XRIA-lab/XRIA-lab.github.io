@@ -11,6 +11,7 @@ description: A Horizon Europe project on multi-agent systems for cognitive and p
 
 **Duration:** 1 May 2026 – 30 April 2029  
 **Funder:** European Commission, Horizon Europe  
+**Total budget:** [€5,983,759.74 in EU funding](https://cordis.europa.eu/project/id/101294475)  
 **Partners:** Uppsala University (XRIA Lab) and 13 other partners across Europe  
 **Status:** Ongoing
 

@@ -11,6 +11,7 @@ description: A coordinated multi-agent AI decision-support system for sustainabl
 
 **Duration:** 1 September 2025 – 31 August 2028  
 **Funder:** Sweden's Innovation Agency (Vinnova)  
+**Vinnova funding:** [SEK 6,493,400](https://www.vinnova.se/p/ai-compete-ai-baserat-beslutsstodsystem-med-koordinerade-multi-agenter-for-hallbar-produktion-/)  
 **Partners:** University of Skövde, Volvo Penta, Scania, Daloc AB, Evoma AB, and Uppsala University (XRIA Lab)  
 **Status:** Ongoing
 
