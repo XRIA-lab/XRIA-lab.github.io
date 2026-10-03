@@ -14,7 +14,7 @@ We are always looking for motivated students, researchers, and industrial collab
 
 ## Upcoming positions
 
-We will announce three positions soon. Calls will be published here and on the [Uppsala University vacancies page](https://www.uu.se/en/about-uu/join-us/jobs-and-vacancies); interested candidates are welcome to get in touch in advance.
+We will announce one PhD position and two postdoctoral positions soon. Calls will be published here and on the [Uppsala University vacancies page](https://www.uu.se/en/about-uu/join-us/jobs-and-vacancies); interested candidates are welcome to get in touch in advance.
 
 ### Postdoc in industrial energy flexibility (FLEXIVA)
 
