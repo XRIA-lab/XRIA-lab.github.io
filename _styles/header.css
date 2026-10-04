@@ -11,6 +11,20 @@ header {
   z-index: 10 !important;
 }
 
+header.background:before {
+  background-position: 50% 45%;
+  opacity: 0.58;
+}
+
+header .title-text,
+header nav {
+  text-shadow: 0 1px 5px rgba(0, 0, 0, 0.75);
+}
+
+header .logo {
+  filter: drop-shadow(0 1px 4px rgba(0, 0, 0, 0.7));
+}
+
 header a {
   color: var(--text);
   text-decoration: none;
