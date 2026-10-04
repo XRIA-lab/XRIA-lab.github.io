@@ -6,7 +6,7 @@ description: >-
   We develop AI-driven extended reality, simulation, and decision-support systems
   that make manufacturing safer, smarter, and more sustainable.
 header: images/background.webp
-footer: images/background.jpg
+footer: images/background.webp
 proofer: false
 
 # the "IA" in XRIA: expansions rotated in the home-page headline (add or reorder freely)
