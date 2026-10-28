@@ -77,6 +77,7 @@ We bring XR into engineering classrooms as virtual labs, and study how immersive
 <ul class="partner-list">
   <li>European Commission – Horizon Europe</li>
   <li>Vinnova</li>
+  <li>Swedish Energy Agency</li>
   <li>Uppsala University</li>
   <li>Uppsala Innovation Centre</li>
   <li>RESILIENT Competence Centre</li>
