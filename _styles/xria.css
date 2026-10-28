@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .eu-funding {
   display: flex;
   align-items: center;
@@ -78,24 +79,71 @@
     content: none;
   }
 }
-.thesis {
-  margin: 30px 0;
+details.thesis {
+  margin: 20px 0;
   padding: 20px 25px;
+  border: none;
   border-radius: var(--rounded);
   background: var(--background);
   box-shadow: var(--shadow);
 }
-.thesis .thesis-title {
+details.thesis summary {
+  display: block;
+  margin: 0;
+  padding: 0;
+  background: none;
+  line-height: inherit;
+  cursor: pointer;
+  list-style: none;
+}
+details.thesis summary::before {
+  content: none;
+}
+details.thesis summary:hover, details.thesis[open] summary {
+  background: none;
+}
+details.thesis summary:hover .thesis-toggle {
+  text-decoration: underline;
+}
+details.thesis summary::-webkit-details-marker {
+  display: none;
+}
+details.thesis summary:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 4px;
+}
+details.thesis .thesis-title {
   margin-top: 0;
   text-align: left;
 }
-.thesis .thesis-meta {
+details.thesis .thesis-meta {
   display: flex;
   flex-wrap: wrap;
   gap: 5px 25px;
   font-size: 0.95rem;
 }
-.thesis .button-wrapper {
+details.thesis .thesis-teaser {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+details.thesis .thesis-toggle {
+  color: var(--primary);
+  font-weight: var(--semi-bold, 600);
+}
+details.thesis .thesis-toggle::after {
+  content: "Read more ▾";
+}
+details.thesis[open] .thesis-teaser {
+  display: none;
+}
+details.thesis[open] .thesis-toggle::after {
+  content: "Show less ▴";
+}
+details.thesis .button-wrapper {
   justify-content: flex-start;
 }
 
