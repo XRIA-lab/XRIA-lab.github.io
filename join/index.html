@@ -538,7 +538,7 @@
 <h2 id="masters-thesis-projects">Master’s thesis projects</h2>
 
 <p>We supervise Master’s theses in industrial engineering, XR, AI, simulation, and optimization, often connected to our research projects and industrial partners.
-The topics below are currently open; please contact the person listed for each topic.</p>
+The topics below are currently open. Click a topic to read the full description; please contact the person listed for each topic.</p>
 
 <details class="thesis" id="renewable-and-carbon-aware-ai-control-of-energy-flexible-production">
   <summary>
@@ -637,6 +637,10 @@ The topics below are currently open; please contact the person listed for each t
     <h3 class="thesis-title">Why Did the AI Pause Production? Explainable AI for Energy-Flexible Production Control</h3>
     <p class="thesis-meta">
       
+        
+        
+        <span><strong>Project:</strong> <a href="/projects/ai-compete">AI-COMPETE</a></span>
+      
       
         
           <span><strong>Research lead:</strong> <a href="/members/kaveh-amouzgar/">Kaveh Amouzgar</a></span>
@@ -678,6 +682,10 @@ The topics below are currently open; please contact the person listed for each t
   <summary>
     <h3 class="thesis-title">Robustness of Multimodal Workload Estimation to Missing Sensors in Industrial Tasks</h3>
     <p class="thesis-meta">
+      
+        
+        
+        <span><strong>Project:</strong> <a href="/projects/manufactor">MANUFACTOR</a></span>
       
       
         
@@ -800,6 +808,14 @@ These topics are led by <a href="/members/pegah-rahimian">Pegah Rahimian</a>.</p
 </details>
 
 <p>Have your own idea within our research areas? Contact <strong>Kaveh Amouzgar</strong> to discuss it.</p>
+
+<script>
+  // open a thesis card when the page is visited with its link, e.g. /join/#its-title
+  (function () {
+    var el = location.hash && document.getElementById(decodeURIComponent(location.hash.slice(1)));
+    if (el && el.tagName === "DETAILS") { el.open = true; el.scrollIntoView(); }
+  })();
+</script>
 
 <h2 id="internships">Internships</h2>
 
