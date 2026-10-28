@@ -83,12 +83,45 @@
   .ia-rotate::after { content: none; }
 }
 
-.thesis {
-  margin: 30px 0;
+details.thesis {
+  margin: 20px 0;
   padding: 20px 25px;
+  border: none;
   border-radius: var(--rounded);
   background: var(--background);
   box-shadow: var(--shadow);
+
+  summary {
+    display: block;
+    margin: 0;
+    padding: 0;
+    background: none;
+    line-height: inherit;
+    cursor: pointer;
+    list-style: none;
+  }
+
+  summary::before {
+    content: none;
+  }
+
+  summary:hover,
+  &[open] summary {
+    background: none;
+  }
+
+  summary:hover .thesis-toggle {
+    text-decoration: underline;
+  }
+
+  summary::-webkit-details-marker {
+    display: none;
+  }
+
+  summary:focus-visible {
+    outline: 2px solid var(--primary);
+    outline-offset: 4px;
+  }
 
   .thesis-title {
     margin-top: 0;
@@ -100,6 +133,32 @@
     flex-wrap: wrap;
     gap: 5px 25px;
     font-size: 0.95rem;
+  }
+
+  .thesis-teaser {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    overflow: hidden;
+    margin-bottom: 5px;
+  }
+
+  .thesis-toggle {
+    color: var(--primary);
+    font-weight: var(--semi-bold, 600);
+  }
+
+  .thesis-toggle::after {
+    content: "Read more ▾";
+  }
+
+  &[open] .thesis-teaser {
+    display: none;
+  }
+
+  &[open] .thesis-toggle::after {
+    content: "Show less ▴";
   }
 
   .button-wrapper {
