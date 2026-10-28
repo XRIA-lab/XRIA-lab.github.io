@@ -1,0 +1,69 @@
+# Master's thesis topics shown on the Join Us page.
+# status: open | taken     (taken topics are hidden)
+# area: optional; "sports" lists the topic under Sports analytics instead of the main list
+# lead / contact: member file names from _members/ (without .md)
+# project: optional, a project page slug from projects/ (e.g. ai-compete)
+
+- title: Renewable- and Carbon-Aware AI Control of Energy-Flexible Production
+  status: open
+  project: ai-compete
+  lead: kaveh-amouzgar
+  contact: pegah-rahimian
+  description: |
+    As wind and solar power grow, electricity prices and the carbon intensity of the grid vary increasingly over the day, rewarding factories that shift their electricity use to favourable hours. A recent study at a Swedish automotive battery assembly plant showed that a deep reinforcement learning (DRL) agent, trained in a discrete-event simulation of the production line, can postpone energy-intensive battery charging to cheaper hours without reducing production output. That controller, however, responded only to Swedish electricity prices, in a grid that is already largely low-carbon.
+
+    This thesis extends the controller to also consider grid carbon intensity, renewable share and peak-power network charges, and tests it under the very different conditions of other European electricity markets, such as southern Sweden, Germany, Spain and Poland. It asks when cost-optimal and carbon-optimal behaviour diverge, whether AI-based control pays off more in volatile, renewable-heavy markets, and whether a controller trained in one market can be transferred to another. Empirically, the thesis builds on the existing simulation model and uses public electricity market and grid data, benchmarking the controller against a rule-based strategy and an optimisation model with perfect price foresight.
+
+- title: Automating the Identification, Simulation and Control of Flexible Production Resources with Large Language Models
+  status: open
+  project: ai-compete
+  lead: kaveh-amouzgar
+  contact: pegah-rahimian
+  description: |
+    Finding out which machines in a factory can shift their electricity use, and proving that doing so will not disrupt production, typically requires weeks of work by energy and production experts. Two recent studies point to a way of automating this. The first identified energy-flexible battery-charging stations at an automotive plant through manual data analysis, discrete-event simulation and an AI-based controller. The second developed an agentic framework in which large language model (LLM) agents automatically build simulation models of production lines and optimise their design, with engineers approving key steps.
+
+    This thesis combines the two by developing a team of LLM agents that analyses factory energy and production data, proposes which resources could provide flexibility, generates the corresponding simulation model and sets up the control problem, with human-in-the-loop checkpoints throughout. It asks whether LLM agents can match expert judgement in identifying flexible resources, where human input remains indispensable, and how much engineering effort can be saved.
+
+- title: "Why Did the AI Pause Production? Explainable AI for Energy-Flexible Production Control"
+  status: open
+  lead: kaveh-amouzgar
+  contact: pegah-rahimian
+  description: |
+    Factories can reduce electricity costs and support a renewable-based power grid by shifting energy-intensive operations to hours with cheap, low-carbon electricity. A recent study at a Swedish automotive battery assembly plant showed that a deep reinforcement learning (DRL) agent, trained in a discrete-event simulation of the production line, can learn when to pause and resume battery charging based on electricity prices and buffer levels, reducing costs without reducing output. Like most DRL controllers, however, it is a black box: production planners cannot see why it makes a given decision, which makes them reluctant to trust and adopt it.
+
+    This thesis develops and evaluates explanations of the controller's behaviour for production staff. It combines established explainable AI methods, such as feature attribution and simplified surrogate rules that approximate the learned policy, with a large language model (LLM) layer that turns these into plain-language explanations, for example why charging is postponed now and what would change the decision. It asks which kinds of explanation help planners understand and anticipate the controller, whether explanations increase justified trust without encouraging blind reliance, and how faithful LLM-generated explanations are to what the controller actually does.
+
+- title: Robustness of Multimodal Workload Estimation to Missing Sensors in Industrial Tasks
+  status: open
+  lead: kaveh-amouzgar
+  contact: xingdi-tong
+  description: |
+    Understanding how much mental and physical effort an operator is experiencing is important for developing manufacturing systems that can better support people at work. Sensors such as heart rate monitors, skin conductance sensors and cameras can provide useful information about an operator's state. Combining data from several sensors can improve workload estimation, but what happens when some sensors stop working or provide unreliable data?
+
+    This thesis will investigate how missing or unreliable sensor data affect workload estimation and how models can be made more robust to these problems. The student will develop models that combine data from multiple sensors, test how their performance changes when sensor data are missing or noisy, and compare methods for maintaining reliable estimates. These methods may include training models to handle missing sensor data and adjusting the contribution of each sensor according to its data quality.
+
+    The project will use public datasets collected during industrial tasks, such as MultiPhysio-HRC, which includes physiological signals and facial data. If time allows, the methods may also be tested on a small pilot dataset from an experimental setup.
+
+# ---- Sports analytics (area: sports) ----
+
+- title: "Beyond Prediction: Can AI Agents Learn to Make Better Football Decisions?"
+  status: open
+  area: sports
+  lead: pegah-rahimian
+  contact: pegah-rahimian
+  description: |
+    Football analytics has become increasingly effective at predicting what happens on the pitch, but predicting outcomes is fundamentally different from recommending better decisions. Can an AI system learn not only to evaluate a player's actions, but also to suggest what the player should have done instead?
+
+    This thesis investigates agentic AI and reinforcement learning for football decision support, using real match event and tracking data. The student will develop an AI framework that observes a game situation, evaluates alternative actions (passing, carrying, shooting, or positioning), and recommends decisions that maximize tactical objectives such as scoring probability, possession retention, or defensive stability. Possible research directions include comparing supervised learning, reinforcement learning, and LLM-based agents; investigating counterfactual decision-making; and studying how tactical preferences influence optimal recommendations.
+
+    The project will evaluate recommendations using historical match data, predictive models, and simulated game situations, while examining their robustness, interpretability, and practical usefulness for coaches and analysts. The thesis combines machine learning, sequential decision-making, multi-objective optimization, and explainable AI, offering students the opportunity to work with real professional football data and contribute to emerging research on trustworthy AI decision-support systems.
+
+- title: "Building the Perfect Football Squad: Multi-Objective Optimization Under Real-World Constraints"
+  status: open
+  area: sports
+  lead: pegah-rahimian
+  contact: pegah-rahimian
+  description: |
+    What if you had €100 million to build a football team? Which players should you sign to maximize performance while balancing cost, tactical compatibility, and future potential?
+
+    This thesis treats football squad building as an industrial engineering optimization problem. Using real football data, students will formulate a multi-objective optimization model considering transfer budgets, player salaries, positional requirements, tactical fit, and uncertainty in player performance. Methods such as mixed-integer programming, evolutionary optimization (NSGA-II), and robust optimization can be explored to identify Pareto-optimal squads. The outcome will be an interactive decision-support tool showing how different financial and sporting priorities lead to different recruitment strategies, connecting operations research, resource allocation, uncertainty, and multi-criteria decision-making to professional football.
