@@ -82,3 +82,27 @@
 @media (prefers-reduced-motion: reduce) {
   .ia-rotate::after { content: none; }
 }
+
+.thesis {
+  margin: 30px 0;
+  padding: 20px 25px;
+  border-radius: var(--rounded);
+  background: var(--background);
+  box-shadow: var(--shadow);
+
+  .thesis-title {
+    margin-top: 0;
+    text-align: left;
+  }
+
+  .thesis-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px 25px;
+    font-size: 0.95rem;
+  }
+
+  .button-wrapper {
+    justify-content: flex-start;
+  }
+}
