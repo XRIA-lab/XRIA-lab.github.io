@@ -44,7 +44,7 @@ A fully funded PhD position at XRIA Lab will be announced soon.
 ## Master's thesis projects
 
 We supervise Master's theses in industrial engineering, XR, AI, simulation, and optimization, often connected to our research projects and industrial partners.
-The topics below are currently open; please contact the person listed for each topic.
+The topics below are currently open. Click a topic to read the full description; please contact the person listed for each topic.
 
 {% assign open_theses = site.data.theses | where: "status", "open" %}
 {% assign main_theses = open_theses | where_exp: "t", "t.area == nil" %}
@@ -65,6 +65,14 @@ These topics are led by [Pegah Rahimian]({{ "members/pegah-rahimian" | relative_
 {% endif %}
 
 Have your own idea within our research areas? Contact **Kaveh Amouzgar** to discuss it.
+
+<script>
+  // open a thesis card when the page is visited with its link, e.g. /join/#its-title
+  (function () {
+    var el = location.hash && document.getElementById(decodeURIComponent(location.hash.slice(1)));
+    if (el && el.tagName === "DETAILS") { el.open = true; el.scrollIntoView(); }
+  })();
+</script>
 
 ## Internships
 
