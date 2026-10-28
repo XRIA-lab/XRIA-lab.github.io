@@ -1,0 +1,34 @@
+{% comment %}
+  Renders one Master's thesis topic from _data/theses.yaml.
+  Usage: include thesis.html thesis=topic
+{% endcomment %}
+{% assign t = include.thesis %}
+{% assign lead = site.members | where: "slug", t.lead | first %}
+{% assign contact = site.members | where: "slug", t.contact | first %}
+<div class="thesis">
+  <h3 class="thesis-title">{{ t.title }}</h3>
+  <p class="thesis-meta">
+    {% if t.project %}
+      {% assign plink = "projects/" | append: t.project %}
+      {% assign project = site.data.projects | where: "link", plink | first %}
+      <span><strong>Project:</strong> <a href="{{ plink | relative_url }}">{{ project.title | default: t.project }}</a></span>
+    {% endif %}
+    {% if lead and contact and t.lead == t.contact %}
+      <span><strong>Research lead and contact:</strong> <a href="{{ lead.url | relative_url }}">{{ lead.name }}</a></span>
+    {% else %}
+      {% if lead %}
+        <span><strong>Research lead:</strong> <a href="{{ lead.url | relative_url }}">{{ lead.name }}</a></span>
+      {% endif %}
+      {% if contact %}
+        <span><strong>Contact:</strong> <a href="{{ contact.url | relative_url }}">{{ contact.name }}</a></span>
+      {% endif %}
+    {% endif %}
+  </p>
+  <div class="thesis-description">
+    {{ t.description | markdownify }}
+  </div>
+  {% if contact.links.email %}
+    {% capture mail %}{{ contact.links.email }}?subject={{ "Master's thesis: " | append: t.title | url_encode | replace: "+", "%20" }}{% endcapture %}
+    {% include button.html type="email" text="Contact about this thesis" link=mail %}
+  {% endif %}
+</div>
