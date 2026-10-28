@@ -43,16 +43,28 @@ A fully funded PhD position at XRIA Lab will be announced soon.
 
 ## Master's thesis projects
 
-We supervise Master's theses in industrial engineering, XR, AI, and optimization, often in collaboration with our industrial partners.
-Example directions, connected to our current projects:
+We supervise Master's theses in industrial engineering, XR, AI, simulation, and optimization, often connected to our research projects and industrial partners.
+The topics below are currently open; please contact the person listed for each topic.
 
-<!-- TODO: replace with your current list of concrete thesis topics -->
-- XR guidance and knowledge capture for operator training ([ARTISAN]({{ "projects/artisan" | relative_url }}))
-- Multi-agent and reinforcement-learning decision support for energy-aware production planning ([AI-COMPETE]({{ "projects/ai-compete" | relative_url }}))
-- Multimodal sensing of operator workload and ergonomics with XR feedback ([MANUFACTOR]({{ "projects/manufactor" | relative_url }}))
-- Simulation-based optimization and generative-AI support for discrete-event simulation
-- Identifying and valuing energy flexibility in production from EMS and production data ([FLEXIVA]({{ "projects/flexiva" | relative_url }}))
-- XR virtual labs for engineering education
+{% assign open_theses = site.data.theses | where: "status", "open" %}
+{% assign main_theses = open_theses | where_exp: "t", "t.area == nil" %}
+{% assign sports_theses = open_theses | where: "area", "sports" %}
+{% for thesis in main_theses %}
+  {% include thesis.html thesis=thesis %}
+{% endfor %}
+
+{% if sports_theses.size > 0 %}
+### Sports analytics
+
+The optimization, reinforcement learning, and explainable AI methods we use in manufacturing also apply to professional football.
+These topics are led by [Pegah Rahimian]({{ "members/pegah-rahimian" | relative_url }}).
+
+{% for thesis in sports_theses %}
+  {% include thesis.html thesis=thesis %}
+{% endfor %}
+{% endif %}
+
+Have your own idea within our research areas? Contact **Kaveh Amouzgar** to discuss it.
 
 ## Internships
 
