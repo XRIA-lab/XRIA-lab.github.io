@@ -26,6 +26,7 @@
 
 - title: "Why Did the AI Pause Production? Explainable AI for Energy-Flexible Production Control"
   status: open
+  project: ai-compete
   lead: kaveh-amouzgar
   contact: pegah-rahimian
   description: |
@@ -35,6 +36,7 @@
 
 - title: Robustness of Multimodal Workload Estimation to Missing Sensors in Industrial Tasks
   status: open
+  project: manufactor
   lead: kaveh-amouzgar
   contact: xingdi-tong
   description: |
