@@ -135,6 +135,13 @@ details.thesis {
     font-size: 0.95rem;
   }
 
+  .thesis-requirements {
+    padding: 8px 12px;
+    border-left: 3px solid var(--primary);
+    background: var(--background-alt);
+    font-size: 0.95rem;
+  }
+
   .thesis-teaser {
     display: -webkit-box;
     -webkit-box-orient: vertical;
