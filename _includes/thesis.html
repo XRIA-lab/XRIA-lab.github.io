@@ -29,6 +29,9 @@
         {% endif %}
       {% endif %}
     </p>
+    {% if t.requirements %}
+      <p class="thesis-requirements"><strong>Prerequisites:</strong> {{ t.requirements | markdownify | remove: "<p>" | remove: "</p>" | strip }}</p>
+    {% endif %}
     <p class="thesis-teaser">{{ teaser }}</p>
     <span class="thesis-toggle" aria-hidden="true"></span>
   </summary>
