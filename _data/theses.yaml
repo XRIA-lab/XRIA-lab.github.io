@@ -3,12 +3,17 @@
 # area: optional; "sports" lists the topic under Sports analytics instead of the main list
 # lead / contact: member file names from _members/ (without .md)
 # project: optional, a project page slug from projects/ (e.g. ai-compete)
+# requirements: optional, prerequisites shown on the card (markdown allowed)
 
 - title: Renewable- and Carbon-Aware AI Control of Energy-Flexible Production
   status: open
   project: ai-compete
   lead: kaveh-amouzgar
   contact: pegah-rahimian
+  requirements: &ai-compete-requirements >-
+    Knowledge of and/or experience with production systems and discrete-event simulation.
+    Preferably, you have taken the course
+    [Production Systems Modeling and Optimization](/teaching/#production-systems-modeling-and-optimization).
   description: |
     As wind and solar power grow, electricity prices and the carbon intensity of the grid vary increasingly over the day, rewarding factories that shift their electricity use to favourable hours. A recent study at a Swedish automotive battery assembly plant showed that a deep reinforcement learning (DRL) agent, trained in a discrete-event simulation of the production line, can postpone energy-intensive battery charging to cheaper hours without reducing production output. That controller, however, responded only to Swedish electricity prices, in a grid that is already largely low-carbon.
 
@@ -19,6 +24,7 @@
   project: ai-compete
   lead: kaveh-amouzgar
   contact: pegah-rahimian
+  requirements: *ai-compete-requirements
   description: |
     Finding out which machines in a factory can shift their electricity use, and proving that doing so will not disrupt production, typically requires weeks of work by energy and production experts. Two recent studies point to a way of automating this. The first identified energy-flexible battery-charging stations at an automotive plant through manual data analysis, discrete-event simulation and an AI-based controller. The second developed an agentic framework in which large language model (LLM) agents automatically build simulation models of production lines and optimise their design, with engineers approving key steps.
 
@@ -29,6 +35,7 @@
   project: ai-compete
   lead: kaveh-amouzgar
   contact: pegah-rahimian
+  requirements: *ai-compete-requirements
   description: |
     Factories can reduce electricity costs and support a renewable-based power grid by shifting energy-intensive operations to hours with cheap, low-carbon electricity. A recent study at a Swedish automotive battery assembly plant showed that a deep reinforcement learning (DRL) agent, trained in a discrete-event simulation of the production line, can learn when to pause and resume battery charging based on electricity prices and buffer levels, reducing costs without reducing output. Like most DRL controllers, however, it is a black box: production planners cannot see why it makes a given decision, which makes them reluctant to trust and adopt it.
 
