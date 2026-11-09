@@ -12,20 +12,38 @@ We are always looking for motivated students, researchers, and industrial collab
 
 {% include section.html %}
 
-## Upcoming positions
-
-We will announce one PhD position and one postdoctoral position soon. Calls will be published here and on the [Uppsala University vacancies page](https://www.uu.se/en/about-uu/join-us/jobs-and-vacancies); interested candidates are welcome to get in touch in advance.
+## Open positions
 
 ### Postdoc in industrial energy flexibility (FLEXIVA)
 
-Within the [FLEXIVA]({{ "projects/flexiva" | relative_url }}) project in the RESILIENT Competence Centre, together with Scania and the USER group: using energy management and production data, simulation, and economic assessment to identify, validate, and value energy flexibility in manufacturing.
+**Application deadline: 27 November 2026** · Ref. UFV-PA 2026/3382 · Two years, full time · Uppsala
+
+We are recruiting a postdoctoral researcher in Industrial Engineering and Management, specializing in energy flexibility in industrial operations.
+The position is part of the [FLEXIVA]({{ "projects/flexiva" | relative_url }}) project within RESILIENT, a national competence centre for resilient energy systems co-financed by the Swedish Energy Agency, and is carried out in close collaboration with Scania.
+
+The research concerns how manufacturing companies can adapt when and how they use electricity to meet the needs of the energy system while maintaining productivity, from energy-aware production planning, scheduling, and control to integrating flexibility into operations strategy, decision-making, and business models.
+Depending on the industrial case and your profile, the work can draw on data analytics, simulation and digital twins, optimization and AI-based decision support, and case study or mixed-methods research.
+The industrial case and research questions will be shaped jointly with Scania at the start of the project, so you will have a real opportunity to influence the direction of the research.
+
+We are looking for applicants with a recent PhD (normally within the last three years) in industrial engineering and management, operations management, production engineering, energy systems engineering, computer science, or a related field.
+See the full advertisement for duties, requirements, and how to apply.
 
 {%
   include button.html
-  type="email"
-  text="Express interest"
-  link="kaveh.amouzgar@angstrom.uu.se?subject=FLEXIVA%20postdoc%20-%20XRIA%20Lab"
+  link="https://uu.varbi.com/en/what:job/jobID:987229/"
+  text="Read the ad and apply"
+  icon="fa-solid fa-arrow-up-right-from-square"
 %}
+{%
+  include button.html
+  type="email"
+  text="Questions? Contact Kaveh Amouzgar"
+  link="kaveh.amouzgar@angstrom.uu.se?subject=FLEXIVA%20postdoc%20(UFV-PA%202026%2F3382)"
+%}
+
+{% include section.html %}
+
+## Upcoming positions
 
 ### PhD position
 
