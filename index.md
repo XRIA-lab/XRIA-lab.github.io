@@ -27,6 +27,16 @@ We work hand in hand with manufacturers, from Hitachi Energy and Scania to SMEs,
 
 {% include section.html %}
 
+## Latest news
+
+{% for post in site.posts limit:3 %}
+  {% include post-excerpt.html lookup=post.slug %}
+{% endfor %}
+
+{% include button.html link="news" text="All news" icon="fa-solid fa-arrow-right" flip=true style="bare" %}
+
+{% include section.html %}
+
 ## Research themes
 
 {% capture text %}
@@ -58,16 +68,6 @@ We bring XR into engineering classrooms as virtual labs, and study how immersive
 {% endcapture %}
 
 {% include feature.html image="images/projects/puma2023.jpg" link="research" title="XR in Engineering Education" text=text %}
-
-{% include section.html %}
-
-## Latest news
-
-{% for post in site.posts limit:3 %}
-  {% include post-excerpt.html lookup=post.slug %}
-{% endfor %}
-
-{% include button.html link="news" text="All news" icon="fa-solid fa-arrow-right" flip=true style="bare" %}
 
 {% include section.html %}
 
