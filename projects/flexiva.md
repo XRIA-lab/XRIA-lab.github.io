@@ -33,7 +33,7 @@ Assess costs and benefits under different implicit and explicit flexibility mode
 The project builds on XRIA Lab's work on simulation, simulation-based optimization, and energy efficiency in production systems, and on USER's expertise in flexible electricity use and smart grids.
 It is part of the extension of RESILIENT, a competence centre working to make the Swedish energy system more reliable and resource-efficient with low environmental impact.
 
-{% capture alert %}FLEXIVA will recruit a **postdoctoral researcher** in industrial energy flexibility. See [Join Us]({{ "join" | relative_url }}) for details.{% endcapture %}
+{% capture alert %}FLEXIVA is recruiting a **postdoctoral researcher** in industrial energy flexibility. Apply by **27 November 2026**: see [Join Us]({{ "join" | relative_url }}) or the [full advertisement](https://uu.varbi.com/en/what:job/jobID:987229/).{% endcapture %}
 {% include alert.html type="info" content=alert %}
 
 {% include button.html link="projects" text="All projects" icon="fa-solid fa-arrow-left" style="bare" %}
